@@ -41,24 +41,34 @@ article {
 footer {
     display: flex;
     background-color: rgba(40, 40, 40);
-    color: rgb(150, 150, 0);
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    flex-grow: 100px;
+    /* color: rgb(150, 150, 0); */
+    /* text-align: right; */
+    /* font-family: 'Courier New', Courier, monospace; */
+    /* flex-grow: 100px; */
     padding: 0%;
-    margin: 0;
+    margin: 0 auto;
+}
+
+#futer {
+    text-align: right;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(150, 150, 0);
+
 }
 
 img {
     max-width: 200px;
     max-height: 200px;
     padding: 10px;
+    margin: 10px left;
+    align-self: center;
+    vertical-align: middle;
 }
 
 a {
     color: white;
     text-decoration: none;
-    vertical-align: middle;
+    /* vertical-align: middle; */
 }
 
 a:hover {
@@ -82,4 +92,18 @@ h2 {
 details {
     align-items: center;
     text-align: center;
+    list-style: inside;
+}
+
+summary {
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+code {
+    padding: 10px;
+    text-align: left;
+    align-self: left;
+    font-size: 15pt;
 }
