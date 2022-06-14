@@ -14,18 +14,72 @@
     }
 } */
 
-body {
-    background-color: rgba(202, 148, 183, 0.571);
+html {
+    background-color: rgb(30, 30, 30);
+    padding: 10px;
+    margin: 0 auto;
+    color: rgba(255, 255, 255, 0.843);
+    max-width: 900px;
+    min-width: 500px;
 }
 
-#footer {
-    color: green;
+section {
+    display: flex;
+    align-content: left;
+    width: 1;
+    margin: 10px;
+    text-align: center;
+    line-height: 2;
+}
+
+article {
+    background-color: rgba(50, 50, 50);
+    /* border: 2px rgba(255, 255, 255, 0.108) solid; */
+    padding: 0.5%;
+}
+
+footer {
+    display: flex;
+    background-color: rgba(40, 40, 40);
+    color: rgb(150, 150, 0);
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
+    flex-grow: 100px;
+    padding: 0%;
+    margin: 0;
+}
+
+img {
+    max-width: 200px;
+    max-height: 200px;
+    padding: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+a:hover {
+    color: pink;
 }
 
 h1 {
-    color: green;
+    color: rgb(200, 200, 0);
     text-align: end;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-right: 10%;
+    /* padding-top: 1%; */
+}
+
+h2 {
+    color: rgb(170, 170, 0);
+    border-top: 2px rgba(255, 255, 255, 0.108) solid;
+    border-radius: 3px;
+}
+
+details {
+    align-items: center;
+    text-align: center;
 }
