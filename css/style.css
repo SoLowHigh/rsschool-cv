@@ -1,0 +1,31 @@
+/* @media screen and (prefers-color-scheme: dark) {
+    #footer {
+        color: blue;
+        text-align: center;
+    }
+}
+
+Попробовал сделать автоматическую тему, но как-то не задалось
+
+@media screen and (prefers-color-scheme: light) {
+    #footer {
+        color: green;
+        text-align: center;
+    }
+} */
+
+body {
+    background-color: rgba(202, 148, 183, 0.571);
+}
+
+#footer {
+    color: green;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    color: green;
+    text-align: end;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
