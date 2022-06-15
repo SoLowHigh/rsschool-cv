@@ -19,8 +19,8 @@ html {
     padding: 10px;
     margin: 0 auto;
     color: rgba(255, 255, 255, 0.843);
-    max-width: 900px;
-    min-width: 500px;
+    max-width: 70%;
+    min-width: 250px;
 }
 
 section {
@@ -30,21 +30,18 @@ section {
     margin: 10px;
     text-align: center;
     line-height: 2;
+    max-width: 100%;
 }
 
 article {
     background-color: rgba(50, 50, 50);
-    /* border: 2px rgba(255, 255, 255, 0.108) solid; */
     padding: 0.5%;
 }
 
 footer {
     display: flex;
+    text-align: right;
     background-color: rgba(40, 40, 40);
-    /* color: rgb(150, 150, 0); */
-    /* text-align: right; */
-    /* font-family: 'Courier New', Courier, monospace; */
-    /* flex-grow: 100px; */
     padding: 0%;
     margin: 0 auto;
 }
@@ -80,7 +77,6 @@ h1 {
     text-align: end;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding-right: 10%;
-    /* padding-top: 1%; */
 }
 
 h2 {
@@ -90,8 +86,7 @@ h2 {
 }
 
 details {
-    align-items: center;;
-    /* text-align: center; */
+    align-items: center;
     list-style: inside;
 }
 
@@ -106,6 +101,5 @@ summary {
 
 code {
     padding: 10px;
-    text-align: ;
     font-size: 15pt;
 }
