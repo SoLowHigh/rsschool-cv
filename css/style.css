@@ -90,8 +90,8 @@ h2 {
 }
 
 details {
-    align-items: center;
-    text-align: center;
+    align-items: center;;
+    /* text-align: center; */
     list-style: inside;
 }
 
@@ -99,11 +99,13 @@ summary {
     align-items: center;
     text-align: center;
     padding: 10px;
+    margin: 10px;
+    font-size: larger;
+    color: rgb(180, 255, 127);
 }
 
 code {
     padding: 10px;
-    text-align: left;
-    align-self: left;
+    text-align: ;
     font-size: 15pt;
 }
