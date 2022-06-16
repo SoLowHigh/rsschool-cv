@@ -6,7 +6,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/style.css">
         <link rel="icon" href="assets/favicon.ico">
-
         <title> &lt;- My cat </title>
     </head>
     <body>
@@ -15,24 +14,28 @@
             <h1>Frolov Aleksandr, 21</h1>
         </header>
 
-        <section>
-            
-            <article>
-                <img src="assets/avatar.jpg" alt="MyHlebalo">
-                <p>
-                    <h2>&gt;_ Contacts</h2>
-                    SoLowHigh#5644 in Discord
-                    <br>
-                    or SoLowHigh
-                    <br>
-                    almost everywhere
+        <main>
+            <aside id="contacts">
+                <a href="https://t.me/SoLowHigh">
+                    <img src="assets/avatar.jpg" alt="MyHlebalo">
+                </a>
+                <h2>&gt;_ Contacts</h2>
+                SoLowHigh#5644 in Discord or SoLowHigh almost everywhere
+            </aside>
+
+            <section class="container">
+                <nav>
+                    <h4>link1</h4>
+                    <h4>link2</h4>
+                    <h4>link3</h4>
+                    <h4>[WIP]</h4>
+                </nav>
+                <article id="work">
                     <h2>&gt;_ Work</h2>
-                    Last time I worked here: <br> 404 NOT FOUND  
-                </p>
-            </article>
-            
-            <article id="bio">
-                <p>
+                    Last time I worked here: 404 NOT FOUND  
+                </article>
+                
+                <article id="bio">
                     <h2>&gt;_ Bio</h2>
                     For me, the ideal life consists of traveling,  
                     cycling and programming. This is what I strive for)  
@@ -40,66 +43,53 @@
                     I am studying at the Stage-0 course from Rolling Scopes,  
                     I study the skills of non-noob urban cycling and  
                     periodically I envy those who do not live in such boring steppes
+                </article>
+
+                <article id="skills">
                     <h2>&gt;_ Skills</h2>
                     I wrote a little in C++, Shell (both Windows Powershell and Linux Bash),  
                     just a little bit in Java. Basically, the programs were of the level  
                     initial laboratory work on studies. I had experience working with Git, I posted it there  
                     joint <a href="https://evolventa-tmn.github.io">project</a>
-                </p>
-            </article>
+                </article>
 
-            <article>
-                <p>
+                <article id="studying">
                     <h2>&gt;_ Studying</h2>
                     I graduated from high school with a degree in mathematics and physics,  
                     at the moment I am studying at OmSU. At first there was  
                     at the Faculty of Mathematics, now - computer Science  
+                </article>
+
+                <article id="english">
                     <h2>&gt;_ English level</h2>
                     I evaluate myself on Pre-Intermediate, but almost whole text has been 
                     translated with <a href="https://translate.ya.ru">Ya.Perevodchik</a> by myself
-                </p>
-            </article>
-            
-        </section>
-        
+                </article>
+            </section>
+        </main>
         <details>
             <summary>
-                View code examples...
+                Click to view code example!
             </summary>
-            
-                <details>
-                    <summary>
-                        CodeWars registration...
-                    </summary>
-                    <pre><code>
-                        int multiply(int a, int b)
-                        {
-                            int c = a * b;
-                            return(c);
-                        }
-                    </code></pre>
-                </details>
-                
-                <details>
-                    <summary>
-                        Console minigame...
-                    </summary>
-                    <pre><code>
-                        Eh, not now. I love do any work near deadline x_x
-                    </code></pre>
-                </details>
-                
+            <pre><code>
+                int multiply(int a, int b)
+                {
+                    int c = a * b;
+                    return(c);
+                }
+            </code></pre>
         </details>
 
         <footer>            
-            <a href="https://rs.school/">
+            <a href="https://rs.school/js/">
                 <img src="assets/rs.png" alt="RS_LOGO">
+                <!-- <img src="assets/rs_school_js.svg" alt="RS_LOGO"> -->
             </a>
-            <p id="futer">
+            <h3>
                 <br>
-                <a href="https://github.io/SoLowHigh">SoLowHigh</a>,
+                <a href="https://github.com/SoLowHigh">My Github</a>,
                 2022
-            </p>             
+            </h3>             
         </footer>
     </body>
 </html>
