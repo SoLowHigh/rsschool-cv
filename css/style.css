@@ -26,8 +26,9 @@ html {
 
 main {
     display: flex;
-    align-items: stretch;
+    /* align-items: stretch; */
     margin: 0% auto;
+    flex-wrap: wrap;
 }
 
 /* .container {
@@ -40,7 +41,10 @@ main {
 
 nav {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 5;
 }
 
 aside {
@@ -76,13 +80,6 @@ footer {
     align-items: center;
 }
 
-/* #futer {
-    text-align: right;
-    font-family: 'Courier New', Courier, monospace;
-    color: rgb(150, 150, 0);
-
-} */
-
 img {
     max-width: 200px;
     max-height: 200px;
@@ -103,7 +100,7 @@ a:hover {
 
 h1 {
     color: rgb(200, 200, 0);
-    text-align: end;
+    text-align: start;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding-right: 10%;
 }
