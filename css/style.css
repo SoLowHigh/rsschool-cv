@@ -1,18 +1,8 @@
-/* @media screen and (prefers-color-scheme: dark) {
-    #footer {
-        color: blue;
-        text-align: center;
+@media (max-width: 900px) {
+    main {
+        flex-wrap: wrap;
     }
 }
-
-Попробовал сделать автоматическую тему, но как-то не задалось
-
-@media screen and (prefers-color-scheme: light) {
-    #footer {
-        color: green;
-        text-align: center;
-    }
-} */
 
 html {
     background-color: rgb(30, 30, 30);
@@ -25,19 +15,9 @@ html {
 }
 
 main {
-    display: flex;
-    /* align-items: stretch; */
+    display: flex; 
     margin: 0% auto;
-    flex-wrap: wrap;
 }
-
-/* .container {
-    background-color: rgba(50, 50, 50);
-    min-width: 30%;
-    max-width: 100%;
-    margin: 0 auto;
-    align-items: center;
-} */
 
 nav {
     display: flex;
@@ -70,6 +50,28 @@ article {
     line-height: 2;
     /* max-width: 30%; */
     min-width: 10%;
+}
+
+details {
+    display: flex;
+    text-align: center;
+}
+
+summary {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    font-size: larger;
+    color: rgb(180, 255, 127);
+}
+
+pre {
+    text-align: justify;
+}
+
+code {
+    padding: 10px;
+    font-size: 15pt;
 }
 
 footer {
@@ -122,19 +124,3 @@ h4 {
     margin-right: 5%;
 }
 
-pre {
-    text-align: justify;
-}
-
-summary {
-    text-align: center;
-    padding: 10px;
-    margin: 10px;
-    font-size: larger;
-    color: rgb(180, 255, 127);
-}
-
-code {
-    padding: 10px;
-    font-size: 15pt;
-}
