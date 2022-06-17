@@ -86,8 +86,11 @@ footer {
     vertical-align: middle;
 }
 
-img {
+.svg {
     min-width: 200px;
+}
+
+img {
     max-width: 200px;
     padding: 10px;
     margin: 10px left;
