@@ -6,9 +6,14 @@
     .svg {
         min-width: 100px;
     }
+
+    h1 {
+        font-size: x-large;
+    }
 }
 
 html {
+    --bg-color: rgb(50, 50, 50);
     background-color: rgb(30, 30, 30);
     color: rgba(255, 255, 255, 0.843);
     padding: 0.1%;
@@ -33,15 +38,14 @@ nav {
     max-width: 5;
 }
 
-aside {
+.navLink {
     font-size: large;
-    line-height: 2;
     color: rgba(255, 255, 255, 0.7);
 }
 
 section {
     flex-direction: column;
-    background-color: rgba(50, 50, 50);
+    background-color: var(--bg-color);
     min-width: 30%;
     max-width: 100%;
     margin: 0 auto;
@@ -49,7 +53,7 @@ section {
 }
 
 article {
-    background-color: rgba(50, 50, 50);
+    background-color: var(--bg-color);
     padding: 0.3%;
     text-align: center;
     line-height: 2;
@@ -72,8 +76,8 @@ summary {
 pre {
     display: flex;
     justify-content: center;
-    border-top: 1px solid rgba(50, 50, 50);
-    border-bottom: 1px solid rgba(50, 50, 50);
+    border-top: 1px solid var(--bg-color);
+    border-bottom: 1px solid var(--bg-color);
     border-radius: 5px;
 }
 
@@ -134,7 +138,7 @@ h4 {
 /* article's headers */
 h2 {
     color: rgb(170, 170, 0);
-    border-top: 2px rgba(255, 255, 255, 0.108) solid;
+    border-top: 2px rgba(255, 255, 255, 0.1) solid;
     border-radius: 3px;
 }
 
