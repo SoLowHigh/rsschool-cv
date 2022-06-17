@@ -6,12 +6,11 @@
 
 html {
     background-color: rgb(30, 30, 30);
+    color: rgba(255, 255, 255, 0.843);
     padding: 0.1%;
     margin: 0 auto;
-    color: rgba(255, 255, 255, 0.843);
     max-width: 80%;
     min-width: 30%;
-    align-items: center;
 }
 
 main {
@@ -48,13 +47,12 @@ article {
     padding: 0.3%;
     text-align: center;
     line-height: 2;
-    /* max-width: 30%; */
     min-width: 10%;
 }
 
 details {
     display: flex;
-    text-align: center;
+    justify-content: center;
 }
 
 summary {
@@ -66,11 +64,11 @@ summary {
 }
 
 pre {
-    text-align: justify;
+    display: flex;
+    justify-content: center;
 }
 
 code {
-    padding: 10px;
     font-size: 15pt;
 }
 
@@ -80,6 +78,8 @@ footer {
     padding: 0%;
     margin: 0 auto;
     align-items: center;
+    justify-content: space-around;
+    vertical-align: middle;
 }
 
 img {
@@ -100,6 +100,7 @@ a:hover {
     color: pink;
 }
 
+/* main header */
 h1 {
     color: rgb(200, 200, 0);
     text-align: start;
@@ -107,17 +108,20 @@ h1 {
     padding-right: 10%;
 }
 
+/* article's headers */
 h2 {
     color: rgb(170, 170, 0);
     border-top: 2px rgba(255, 255, 255, 0.108) solid;
     border-radius: 3px;
 }
 
+/* footer and fake section's header */
 h3 {
     color: rgb(170, 170, 0);
     vertical-align: middle;
 }
 
+/* nav */
 h4 {
     font-size: larger;
     margin-left: 5%;
