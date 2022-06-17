@@ -2,6 +2,10 @@
     main {
         flex-wrap: wrap;
     }
+
+    .svg {
+        min-width: 100px;
+    }
 }
 
 html {
@@ -13,15 +17,18 @@ html {
     min-width: 30%;
 }
 
+.container {
+    display: flex;
+    align-items: center;
+
+}
+
 main {
     display: flex; 
     margin: 0% auto;
 }
 
 nav {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
     flex-wrap: wrap;
     max-width: 5;
 }
@@ -33,13 +40,11 @@ aside {
 }
 
 section {
-    display: flex;
     flex-direction: column;
     background-color: rgba(50, 50, 50);
     min-width: 30%;
     max-width: 100%;
     margin: 0 auto;
-    align-items: center;
 }
 
 article {
@@ -73,18 +78,17 @@ code {
 }
 
 footer {
-    display: flex;
+    flex-wrap: wrap;
     background-color: rgba(40, 40, 40);
     padding: 0%;
     margin: 0 auto;
-    align-items: center;
     justify-content: space-around;
     vertical-align: middle;
 }
 
 img {
+    min-width: 200px;
     max-width: 200px;
-    max-height: 200px;
     padding: 10px;
     margin: 10px left;
     align-self: center;
@@ -108,6 +112,13 @@ h1 {
     padding-right: 10%;
 }
 
+/* nav */
+h4 {
+    font-size: larger;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
 /* article's headers */
 h2 {
     color: rgb(170, 170, 0);
@@ -119,12 +130,5 @@ h2 {
 h3 {
     color: rgb(170, 170, 0);
     vertical-align: middle;
+    text-align: center;
 }
-
-/* nav */
-h4 {
-    font-size: larger;
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
