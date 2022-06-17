@@ -25,7 +25,6 @@ html {
 .container {
     display: flex;
     align-items: center;
-
 }
 
 main {
@@ -34,8 +33,7 @@ main {
 }
 
 nav {
-    flex-wrap: wrap;
-    max-width: 5;
+    justify-content: center;
 }
 
 .navLink {
