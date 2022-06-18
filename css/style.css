@@ -109,6 +109,15 @@ img {
     vertical-align: middle;
 }
 
+ul {
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+li {
+    padding: 10px;
+}
+
 a {
     color: white;
     text-decoration: none;
